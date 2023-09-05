@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+.card {
+    height: 30em;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 0.8em;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.body:last-child {
+    margin-right: 0;
+}
+
+#basico {
+    background-color: #333;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.premium {
+    background-color: #333333;
+}
+
+.premium_header {
+    padding: 10px;
+    color: red;
+}
+
+#card-basico {
+    background-color: red;
+}
+
+#padrao {
+    background-color: red;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#card-padrao {
+    background-color: #333333;
+}
+
+input[type="submit"] {
+    background-color: rgb(218, 112, 112);
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px red;
+    width: 60%;
+    border-radius: 0.5em;
+    margin-top: 15vh;
+    margin-left: 5em;
+    height: 3em;
+}
+
+input[type="submit"]:hover {
+    background-color: #344d68;
+}
+
+.valor {
+    color: red;
+}
+
+p {
+    text-align: justify;
+}
+
+#vantagens {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
