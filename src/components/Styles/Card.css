@@ -23,8 +23,6 @@ body {
 }
 
 #basico {
-    background-color: #333;
-    color: red;
     padding: 10px;
     font-weight: bold;
 }
@@ -43,7 +41,6 @@ body {
 }
 
 #padrao {
-    background-color: red;
     font-weight: bold;
     padding: 10px;
 }
