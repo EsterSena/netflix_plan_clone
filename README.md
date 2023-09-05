@@ -5,8 +5,8 @@ Este é um projeto com fins academicos para respostar uma prova do curso Program
 Clone o projeto para sua máquina, e em seguida baixe as depedências dele no mesmo utilizando npm install.
 Baixe os seguintes repositórios para que os icones funcionem perfeitamente no projeto.
 
-**npm install --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/fontawesome-svg-core
 
-**npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-solid-svg-icons
 
-**npm install --save @fortawesome/react-fontawesome
+npm install --save @fortawesome/react-fontawesome
