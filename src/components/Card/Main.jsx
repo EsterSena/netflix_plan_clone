@@ -5,7 +5,6 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 function Main(props) {
     const planos = props.planos
-    console.log(planos)
 
     const usePlanos = planos.map((plano, index) => {
         return (
@@ -16,11 +15,12 @@ function Main(props) {
                     <p>{plano.texto}</p>
                     <hr></hr>
                     <div id="vantagens">
-                        <FontAwesomeIcon icon={faCheckCircle} style={{ color: 'green' }} /> {plano.icontext}
-
-                        <FontAwesomeIcon icon={faCheckCircle} style={{ color: 'green' }} />{plano.icontext}
-
-                        <FontAwesomeIcon icon={faCheckCircle} style={{ color: 'green' }} /> {plano.icontext}
+                        {plano.vantagens.map((vantagem, vIndex) => (
+                            <div className="vantagem" key={vIndex}>
+                                <FontAwesomeIcon icon={faCheckCircle} style={{ color: 'green' }} />
+                                {'   '} {vantagem}
+                            </div>
+                        ))}
                     </div>
                     <input type="submit" value={'ASSINAR'}></input>
                 </div>
