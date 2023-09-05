@@ -10,7 +10,7 @@ function Main(props) {
     const usePlanos = planos.map((plano, index) => {
         return (
             <>
-                <div className='card' id="card-padrao" backgroundColor={plano.color}>
+                <div className='card' id="card-padrao" >
                     <header id='padrao'>{plano.nome}</header>
                     <h2 className='valor'>R$ {plano.valor}</h2>
                     <p>{plano.texto}</p>
