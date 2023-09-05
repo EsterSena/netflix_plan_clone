@@ -6,27 +6,27 @@ function App() {
   const planos = [
     {
       nome: "Básico",
-      texto: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      texto: "Sem compromisso, cancele quando quiser.",
       valor: '18,00',
-      icontext: 'Lorem Ipsum is simply dummy tex'
+      icontext: 'Divirta-se com a Netflix em todos os seus aparelhos'
     },
     {
       nome: "Padrão",
-      texto: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      texto: "Sem compromisso, cancele quando quiser.",
       valor: '29,00',
       color: '',
-      icontext: 'Lorem Ipsum is simply dummy tex'
+      icontext: 'Divirta-se com a Netflix em todos os seus aparelhos'
     },
     {
       nome: "Premium",
-      texto: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      texto: "Sem compromisso, cancele quando quiser.",
       valor: '59,00',
       color: '',
-      icontext: 'Lorem Ipsum is simply dummy tex'
+      icontext: 'Divirta-se com a Netflix em todos os seus aparelhos'
     },
     {
       nome: "Premium",
-      texto: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      texto: "Sem compromisso, cancele quando quiser.",
       valor: '59,00',
       color: '',
       icontext: 'Lorem Ipsum is simply dummy tex'
